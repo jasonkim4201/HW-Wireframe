@@ -6,12 +6,20 @@ body {
   font-size: 18px;
 }
 
+header,
+nav,
+section,
+aside,
+footer {
+  background: #ebebeb;
+}
+
 h1 {
   color: #ebebeb;
   background: #777;
 }
 
 p {
-  color: #ebebeb;
-  background: #777;
+  color: #777;
+  background: #ebebeb;
 }
