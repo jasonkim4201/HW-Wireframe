@@ -6,6 +6,8 @@ body {
   width: 960px;
   font-size: 18px;
   text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 header,
@@ -14,6 +16,15 @@ section,
 aside,
 footer {
   background: #ebebeb;
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 section {
@@ -37,7 +48,7 @@ p {
 }
 
 aside {
-  float: left;
+  float: right;
 }
 footer {
   clear: both;
