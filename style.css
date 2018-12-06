@@ -31,12 +31,13 @@ section {
   width: 495px;
   float: left;
 }
-
+/* Not perfect but I'm just glad I have something that looks kind of like it. */
 article {
   color: #ebebeb;
   background: #777;
   width: 495px;
   float: left;
+  padding: 6px;
 }
 
 h1,
@@ -45,9 +46,12 @@ p {
   background: #ebebeb;
   width: 495px;
   float: left;
+  margin-bottom: 1px;
 }
-
+/* Figure out if there's a legitimate way to make this part without guessing pixel stuff... */
 aside {
+  width: 375px;
+  height: 161px;
   float: right;
 }
 footer {
